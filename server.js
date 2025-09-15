@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 // Config
-const SECRET = process.env.SECRET || "DEV_SECRET_CHANGE_ME";
+const SECRET = process.env.SECRET || "ilovead";
 const PORT = process.env.PORT || 3000;
 const TOKEN_EXPIRES = "48h"; // thời hạn token
 
